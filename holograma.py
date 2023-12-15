@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 # Generando datos aleatorios con distribución normal
 np.random.seed(0)  # Para resultados reproducibles
 datos_grupo1 = np.random.normal(100, 10, 1000)  # Media 100, Desviación estándar 10, 1000 datos
-datos_grupo2 = np.random.normal(90, 20, 1000)   # Media 90, Desviación estándar 20, 1000 datos
+datos_grupo2 = np.random.normal(90, 20, 1000)  # Media 90, Desviación estándar 20, 1000 datos
 
 # Creando el histograma
 bins = np.linspace(50, 150, 30)  # Define los límites de las barras

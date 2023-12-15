@@ -22,8 +22,8 @@ modelo.compile(optimizer=optimizer, loss='mean_squared_error')
 historial = modelo.fit(tamanos_casa_norm, precios_casa_norm, epochs=500, verbose=0)
 
 # Gráfico para ver el proceso de entrenamiento
-plt.xlabel('Epoch Number')
-plt.ylabel("Loss Magnitude")
+plt.xlabel('Número de ciclos')
+plt.ylabel("Magnitud de la Pérdida")
 plt.plot(historial.history['loss'])
 
 # Usar el modelo para hacer predicciones normalizadas
